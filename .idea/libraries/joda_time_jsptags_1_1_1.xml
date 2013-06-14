@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="joda-time-jsptags-1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/joda-time/joda-time-jsptags/1.1.1/jar/da62400b7d48cec7714e3bd1fec2be94a7521db6/joda-time-jsptags-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/joda-time/joda-time-jsptags/1.1.1/source/2b9e2f68c7c2ba87c5c9bbb23044d15cdb82bb38/joda-time-jsptags-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

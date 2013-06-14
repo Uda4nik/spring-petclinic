@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="web">
+		<property name="context-root" value="web"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/model/model">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/javax.servlet/jstl/1.2/jar/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-webmvc/3.2.3.RELEASE/jar/6d6d1b53c53dbefd0d8c15f2d5c194ced1f8d53c/spring-webmvc-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/joda-time/joda-time-hibernate/1.3/jar/2b8773a3d2834d2c0901ac9b3c4a49b79b278f3a/joda-time-hibernate-1.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.7.5/jar/6b262da268f8ad9eff941b25503a9198f0a0ac93/slf4j-api-1.7.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/joda-time/joda-time/2.2/jar/a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d/joda-time-2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate/hibernate-validator/4.3.1.Final/jar/49b31d8ea51fa21cc78a89e9d4ddb11d6bfb4669/hibernate-validator-4.3.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-servlet2/0.8.14/jar/6eb30e7cf0a9a2505a475140e346ad08903774a0/datatables-servlet2-0.8.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.aspectj/aspectjweaver/1.7.2/jar/d3b191a99d2c34dfd5311ef3110f096f5bc0a10e/aspectjweaver-1.7.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-jsp/0.8.14/jar/5667f15a89862f5fde21c515f49c65db79ee7a0a/datatables-jsp-0.8.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/ch.qos.logback/logback-access/1.0.9/jar/9d58a6095a0ff64e11f0f94b5b41a556f3201d5c/logback-access-1.0.9.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-jdbc/3.2.3.RELEASE/jar/426d245731dca3315fe421300db6316d509c5d85/spring-jdbc-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-core/3.2.3.RELEASE/jar/accdd65db57e79e49f2af037bb76f5a55a580f00/spring-core-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-oxm/3.2.3.RELEASE/jar/89c0f4ca00e44a636e01aeaf29894b86828af6a1/spring-oxm-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/ch.qos.logback/logback-core/1.0.13/jar/dc6e6ce937347bd4d990fc89f4ceb469db53e45e/logback-core-1.0.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-tx/3.2.3.RELEASE/jar/40d76c7b27769a3235547bd329d20878df343b19/spring-tx-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-context-support/3.2.3.RELEASE/jar/9c8034c5cc7cb2a9603549577e66035248be64e5/spring-context-support-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework.data/spring-data-jpa/1.3.2.RELEASE/jar/8f24ecd8797ee9a859796768b9849859fbd8504f/spring-data-jpa-1.3.2.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/commons-dbcp/commons-dbcp/1.4/jar/30be73c965cc990b153a100aaaaafcf239f82d39/commons-dbcp-1.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.jadira.usertype/usertype.core/3.1.0.CR6/jar/75c2f5f77e99ff1350d755aaf31497b608c9993/usertype.core-3.1.0.CR6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.jadira.usertype/usertype.spi/3.1.0.CR6/jar/a2dd20fcae6e11531b958eac47bdaebf76d72aa/usertype.spi-3.1.0.CR6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-web/3.2.3.RELEASE/jar/833c5e9a60f82209a3f669a5026dfa8de57c1df3/spring-web-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.aspectj/aspectjrt/1.7.2/jar/2704a4284193598dd42f1dd4ff1ea3e757c875e9/aspectjrt-1.7.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.itextpdf/itextpdf/5.3.4/jar/7bdde266a5b26b62c38b2e05a74efbc45b0e0953/itextpdf-5.3.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/dom4j/dom4j/1.6.1/jar/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate/hibernate-ehcache/4.2.1.Final/jar/c33d64b92071f56ad3d58526c8b6a598e9f4e5da/hibernate-ehcache-4.2.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/commons-beanutils/commons-beanutils/1.8.3/jar/686ef3410bcf4ab8ce7fd0b899e832aaba5facf7/commons-beanutils-1.8.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-context/3.2.3.RELEASE/jar/12ad5920647556704f79cc579d4e133430741c5/spring-context-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate/hibernate-core/4.2.1.Final/jar/83b4c695b314fce5e3c2dae1b7213e1194176f35/hibernate-core-4.2.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate/hibernate-entitymanager/4.2.1.Final/jar/b98f75545d1ab84b9da25f72d535b800d1cf64f/hibernate-entitymanager-4.2.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.webjars/bootstrap/2.3.0/jar/4a66a771d9f74027b55e8707df0221bcd5f8d5a1/bootstrap-2.3.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-export-itext/0.8.14/jar/cf8fa6b5ae81fbc997ab635c5e113d51fb6285a0/datatables-export-itext-0.8.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-aop/3.2.3.RELEASE/jar/a70bec95e45a29cad126d250699d0ed0fedfe28a/spring-aop-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.webjars/jquery/1.9.0/jar/b17a8a51561058eae4199a5d7d835144a03a3aeb/jquery-1.9.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework.data/spring-data-commons/1.5.1.RELEASE/jar/dc8c66340d6b1e7c44c6a4c093e0da8b3bf41314/spring-data-commons-1.5.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/rome/rome/1.0/jar/22b33347f315833e9348cec2751af1a5d5656e4/rome-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.jboss.logging/jboss-logging/3.1.0.GA/jar/c71f2856e7b60efe485db39b37a31811e6c84365/jboss-logging-3.1.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-expression/3.2.3.RELEASE/jar/51e4c94a79892c0a2d15c5efda8c5b336ebf5c37/spring-expression-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-beans/3.2.3.RELEASE/jar/a48eb92ef51e0aed7d23dcaa54225b8f24808db4/spring-beans-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-jms/3.2.3.RELEASE/jar/3278be8819c0e2bf0aa35c838a9ff936dcb5b906/spring-jms-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.javassist/javassist/3.15.0-GA/jar/79907309ca4bb4e5e51d4086cc4179b2611358d7/javassist-3.15.0-GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/joda-time/joda-time-jsptags/1.1.1/jar/da62400b7d48cec7714e3bd1fec2be94a7521db6/joda-time-jsptags-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.googlecode.json-simple/json-simple/1.1.1/bundle/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/1.0.1.Final/jar/3306a165afa81938fc3d8a0948e891de9f6b192b/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/commons-pool/commons-pool/1.5.4/jar/75b6e20c596ed2945a259cea26d7fadd298398e6/commons-pool-1.5.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/net.sf.ehcache/ehcache-core/2.6.6/jar/d034897c2afb0baf46f2623d4521798c2d2b3509/ehcache-core-2.6.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.webjars/jquery-ui/1.9.2/jar/f1c49a883ca7faae8ccd289ddae1460b10a385b2/jquery-ui-1.9.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/antlr/antlr/2.7.7/jar/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/jdom/jdom/1.0/jar/a2ac1cd690ab4c80defe7f9bce14d35934c35cec/jdom-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-core/0.8.14/jar/e1150d54e79989ffd9678589315ac27d52d90bf/datatables-core-0.8.14.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.slf4j/jcl-over-slf4j/1.7.1/jar/a11c000cf26e42ba30b7fb5bd60630a57783fe2d/jcl-over-slf4j-1.7.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hibernate.common/hibernate-commons-annotations/4.0.1.Final/jar/78bcf608d997d0529be2f4f781fdc89e801c9e88/hibernate-commons-annotations-4.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.jboss.spec.javax.transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jar/18f0e1d42f010a8b53aa447bf274a706d5148852/jboss-transaction-api_1.1_spec-1.0.1.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/ch.qos.logback/logback-classic/1.0.13/jar/6b56ec752b42ccfa1415c0361fb54b1ed7ca3db6/logback-classic-1.0.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.springframework/spring-orm/3.2.3.RELEASE/jar/5e2a9788a140adc944dd1b9766abe40531b002c6/spring-orm-3.2.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/org.hsqldb/hsqldb/2.2.9/jar/23365fb055315725a8e69777e3d2e1e8a5d4878f/hsqldb-2.2.9.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/pniederw/.gradle/caches/artifacts-24/filestore/commons-lang/commons-lang/2.6/jar/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

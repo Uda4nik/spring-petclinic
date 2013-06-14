@@ -1,2 +1,6 @@
-rootProject.name = 'spring-petclinic'
+include "web", "model"
+
+rootProject.name = "spring-petclinic"
+project(":web").buildFileName = "web.gradle"
+project(":model").buildFileName = "model.gradle"
 

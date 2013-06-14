@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="datatables-core-0.8.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-core/0.8.14/jar/e1150d54e79989ffd9678589315ac27d52d90bf/datatables-core-0.8.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/com.github.dandelion/datatables-core/0.8.14/source/bce4ad68725db11975ec5c80ead071c9b7dfc06/datatables-core-0.8.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
