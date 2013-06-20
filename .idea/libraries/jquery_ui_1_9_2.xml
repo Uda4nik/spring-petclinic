@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jquery-ui-1.9.2">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.webjars/jquery-ui/1.9.2/jar/f1c49a883ca7faae8ccd289ddae1460b10a385b2/jquery-ui-1.9.2.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
