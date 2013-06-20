@@ -1,7 +1,14 @@
-target/*
-.settings/*
+target
+.settings
 .classpath
 .project
+generated-sources
+*.iws
+*.ipr
+*.iml
+bin
 
 /target
 /build
+/.gradle
+/out

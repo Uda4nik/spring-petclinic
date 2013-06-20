@@ -1,73 +1,41 @@
-def generatedSources = "$buildDir/generated-sources/main"
-def generatedResources = "$buildDir/generated-resources/main"
+def generatedSources = "generated-sources" // outside buildDir so that it isn't affected by IDEA exclude of buildDir
+def generatedResources = "$buildDir/generated-resources"
+
+sourceSets {
+    main {
+        java.srcDir generatedSources
+        output.dir generatedResources
+    }
+}
 
 task generateSources {
     outputs.dir generatedSources
-} 
+
+    doLast {
+        def outputFile = file("$generatedSources/org/springframework/samples/petclinic/model/BaseEntity.java")
+        mkdir(outputFile.parentFile)
+        outputFile.text = file("src/main/generator-input/BaseEntity.java").text
+    }
+}
 
 compileJava.dependsOn(generateSources)
 
 task generateResources {
     outputs.dir generatedResources
-}
 
-sourceSets {
-    main {
-        //java.srcDir generatedSources
-        //output.dir(generatedResources, builtBy: 'generateResources')
+    doLast {
+        def outputFile = file("$generatedResources/db/hsqldb/initDB.sql")
+        mkdir(outputFile.parentFile)
+        outputFile.text = file("src/main/generator-input/initHsqlDB.sql").text
     }
 }
 
-generateSources.doLast {
-    def file = file("$generatedSources/org/springframework/samples/petclinic/model/BaseEntity.java")
-    mkdir(file.parentFile)
-    file.text =
-"""
-package org.springframework.samples.petclinic.model;
+processResources.dependsOn(generateResources)
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
-
-/**
- * Simple JavaBean domain object with an id property. Used as a base class for objects needing this property.
- *
- * @author Ken Krebs
- * @author Juergen Hoeller
- */
-@MappedSuperclass
-public class BaseEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected Integer id;
-
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public boolean isNew() {
-        return (this.id == null);
-    }
-
-}
-"""
+clean {
+    delete generatedSources
 }
 
-generateResources.doLast {
-    def file = file("$generatedResources/generated.properties")
-    mkdir(file.parentFile)
-    file.text =
-"""
-app.version=1.5
-app.vendor=springsource
-"""    
-}
 
 
 

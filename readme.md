@@ -1,5 +1,10 @@
 # Spring PetClinic Sample Application
 
+## How does this fork differ from the original PetClinic application?
+
+* A Gradle build has been added.
+* The project has been modified to showcase some Gradle features (multi-project build, IDE integration, dealing with generated sources, etc.).
+
 ## What does it look like?
 spring-petclinic has been deployed here on cloudfoundry: http://spring-petclinic.cloudfoundry.com/
 
